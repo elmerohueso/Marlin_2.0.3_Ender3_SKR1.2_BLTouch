@@ -1,4 +1,6 @@
 /*
+02162020_1 - Followed https://www.reddit.com/r/ender3/comments/e894j7/marlin_20x_guide_for_ender_3_using_skr_mini_e3_v12/, added probe bed centering and 5 point grid
+
 ================================================================================
 
   Marlin Firmware
