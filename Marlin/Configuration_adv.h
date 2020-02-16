@@ -1510,10 +1510,10 @@
  * the probe to be unable to reach any points.
  */
 #if PROBE_SELECTED && !IS_KINEMATIC
-  #define MIN_PROBE_EDGE_LEFT max(abs(probe_offset.x), MIN_PROBE_EDGE)
-  #define MIN_PROBE_EDGE_RIGHT max(abs(probe_offset.x), MIN_PROBE_EDGE)
-  #define MIN_PROBE_EDGE_FRONT max(abs(probe_offset.y), MIN_PROBE_EDGE)
-  #define MIN_PROBE_EDGE_BACK max(abs(probe_offset.y), MIN_PROBE_EDGE)
+  //#define MIN_PROBE_EDGE_LEFT max(abs(probe_offset.x), MIN_PROBE_EDGE)
+  //#define MIN_PROBE_EDGE_RIGHT max(abs(probe_offset.x), MIN_PROBE_EDGE)
+  //#define MIN_PROBE_EDGE_FRONT max(abs(probe_offset.y), MIN_PROBE_EDGE)
+  //#define MIN_PROBE_EDGE_BACK max(abs(probe_offset.y), MIN_PROBE_EDGE)
 #endif
 
 #if EITHER(MESH_BED_LEVELING, AUTO_BED_LEVELING_UBL)
